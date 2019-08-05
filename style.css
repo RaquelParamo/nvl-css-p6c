@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { background-color:#FFF4F4;}
+
+.nav {
+	padding:0px;
+}
+.nav ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: justify;
+}
+.nav ul li {
+	display:inline-block;
+}
+
+.nav ul li a {
+	text-decoration:none;
+	color:#535353;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style:inherit;	
+	float: right;
+}
+.nav li {
+	list-style:none;
+	width: 40%;
+	display:inline;
+}
+.nav>li {
+	font-weight: 600;
+}
+
+img.logo {
+	display:inline-block;
+	float: left;
+}
+
+.nav>li:hover {
+	color:#B76D6E !important;
+}
+.menu {
+	background-color:#A0A0A0;
+	float:right;
+	width:35%;
+	height:20px;
+	vertical-align:middle;
+	align-content:space-between;
+}
+
+
+h1 {
+	text-align:center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1:hover {
+	color:#D68B00;
+}
+
+div {
+	padding: 10px 10px 10px 10px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+img {
+	width:100%; 
+}
+
+ol li:first-child {
+	color:#BC0003;
+}
+
+a:link {
+	font-style:normal;
+	color:#0009BC;
+}
+a:visited {
+	font-style:italic;
+	color:#CF6F71;
+}
+a:hover {
+color:#FF00D6;
+}
+a {
+	text-decoration:none;
+}
+a[href="https://elcomidista.elpais.com/elcomidista/2016/02/16/receta/1455652106_891831.html"] 
+	{ color:#3CAC6F;}
+a:hover[href="https://elcomidista.elpais.com/elcomidista/2016/02/16/receta/1455652106_891831.html"]
+	{ color:#B04648;}
+a[href="https://elcomidista.elpais.com/elcomidista/2017/02/28/receta/1488314677_222435.html"]
+	{ color:#3CAC6F;}
+a:hover[href="https://elcomidista.elpais.com/elcomidista/2017/02/28/receta/1488314677_222435.html"]
+	{ color:#B04648;}
+a[href="https://elcomidista.elpais.com/elcomidista/2015/11/11/receta/1447278784_807643.html"] 
+	{ color:#3CAC6F;}
+a:hover[href="https://elcomidista.elpais.com/elcomidista/2015/11/11/receta/1447278784_807643.html"] 
+	{ color:#B04648;}
+a[href="http://purplefoodie.com/garlicky-baked-fries/"]
+	{color:#6B71DB;}
+a:hover[href="http://purplefoodie.com/garlicky-baked-fries/"]
+	{color:#B04648;}
+a[href~="#menu"] 
+	{color:#4563D5; text-decoration:underline; font-weight:500:}
+a:hover[href~="#menu"]  
+	{color:#44A352; text-decoration:underline; font-weight:500:}
+a[href^="mailto"]{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style:italic;
+color:#278800;
+}
+a[href^="mailto":hover]{
+	font-style:bold;
+	color:#00FF74;
+}
+	
+	
