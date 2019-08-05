@@ -104,14 +104,13 @@ a:hover[href="http://purplefoodie.com/garlicky-baked-fries/"]
 	{color:#B04648;}
 a[href~="#menu"] 
 	{color:#4563D5; text-decoration:underline; font-weight:500:}
-a:hover[href~="#menu"]  
+a:hover[class~="#menu"] 
 	{color:#44A352; text-decoration:underline; font-weight:500:}
 a[href^="mailto"]{
 	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	font-style:italic;
-color:#278800;
-}
-a[href^="mailto":hover]{
+	font-style:italic; color:#278800;}
+	
+a:hover[href^="mailto"]{
 	font-style:bold;
 	color:#00FF74;
 }
